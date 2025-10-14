@@ -40,29 +40,29 @@ public class Main {
         frog = frog + 4;
         System.out.println(frog);
 
-        var boxer_1 = 78.2;
-        System.out.println(boxer_1 + " кг");
-        var boxer_2 = 82.7;
-        System.out.println(boxer_2 + " кг");
-        var generalboxerweight = (boxer_1 + boxer_2);
-        System.out.println(generalboxerweight + " кг");
-        var differencerboxerweight = (boxer_2 - boxer_1);
+        var boxerOne = 78.2;
+        System.out.println(boxerOne + " кг");
+        var boxerTwo = 82.7;
+        System.out.println(boxerTwo + " кг");
+        var generalboxerWeight = (boxerOne + boxerTwo);
+        System.out.println(generalboxerWeight + " кг");
+        var differencerboxerweight = (boxerTwo - boxerOne);
         System.out.println("Весовая разница между боксёрами " + differencerboxerweight + " кг");
 
-        var divisionremainder = (boxer_2 % boxer_1);
-        System.out.println(divisionremainder + " кг");
+        var divisionRemainder = (boxerTwo % boxerOne);
+        System.out.println(divisionRemainder + " кг");
 
-        var totalhours = 640;
-        System.out.println(totalhours);
-        var numberemployees = ("Всего работников в компании -  " + totalhours / 8 + " человек");
-        System.out.println(numberemployees);
+        var totalHours = 640;
+        System.out.println(totalHours);
+        var numberEmployees = ("Всего работников в компании -  " + totalHours / 8 + " человек");
+        System.out.println(numberEmployees);
 
-        var peoplework = (totalhours / 8);
-        System.out.println(peoplework);
-        var peopleworknow = (peoplework + 94);
-        System.out.println(peopleworknow);
-        var peoplehoursall = (peopleworknow * 8);
-        System.out.println("Если в компании работает " + peopleworknow + " человек, то всего " + peoplehoursall + " часов работы может быть поделено между сотрудниками");
+        var peopleWork = (totalHours / 8);
+        System.out.println(peopleWork);
+        var peopleworkNow = (peopleWork + 94);
+        System.out.println(peopleworkNow);
+        var peoplehoursall = (peopleworkNow * 8);
+        System.out.println("Если в компании работает " + peopleworkNow + " человек, то всего " + peoplehoursall + " часов работы может быть поделено между сотрудниками");
 
     }
 }
