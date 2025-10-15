@@ -46,8 +46,8 @@ public class Main {
         System.out.println(boxerTwo + " кг");
         var generalboxerWeight = (boxerOne + boxerTwo);
         System.out.println(generalboxerWeight + " кг");
-        var differencerboxerweight = (boxerTwo - boxerOne);
-        System.out.println("Весовая разница между боксёрами " + differencerboxerweight + " кг");
+        var differencerboxerWeight = (boxerTwo - boxerOne);
+        System.out.println("Весовая разница между боксёрами " + differencerboxerWeight + " кг");
 
         var divisionRemainder = (boxerTwo % boxerOne);
         System.out.println(divisionRemainder + " кг");
@@ -61,8 +61,8 @@ public class Main {
         System.out.println(peopleWork);
         var peopleworkNow = (peopleWork + 94);
         System.out.println(peopleworkNow);
-        var peoplehoursall = (peopleworkNow * 8);
-        System.out.println("Если в компании работает " + peopleworkNow + " человек, то всего " + peoplehoursall + " часов работы может быть поделено между сотрудниками");
+        var peopleHoursall = (peopleworkNow * 8);
+        System.out.println("Если в компании работает " + peopleworkNow + " человек, то всего " + peopleHoursall + " часов работы может быть поделено между сотрудниками");
 
     }
 }
